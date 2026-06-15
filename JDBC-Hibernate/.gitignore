@@ -1,0 +1,66 @@
+#########################
+# Maven build artifacts #
+#########################
+
+# Ignore target directories
+**/target/
+
+# Ignore Maven wrapper jar except it’s needed
+!.mvn/wrapper/maven-wrapper.jar
+
+#########################
+# IntelliJ IDEA         #
+#########################
+.idea/
+*.iml
+*.iws
+*.ipr
+
+#########################
+# Eclipse               #
+#########################
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans/
+.sts4-cache/
+
+#########################
+# NetBeans              #
+#########################
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+build/
+
+#########################
+# VS Code               #
+#########################
+.vscode/
+
+#########################
+# OS-specific files     #
+#########################
+.DS_Store
+Thumbs.db
+
+#########################
+# Runtime & temp files  #
+#########################
+*.log
+*.tmp
+*.bak
+
+#########################
+# Env files             #
+#########################
+.env
+
+#########################
+# Java                  #
+#########################
+*.class
